@@ -1,0 +1,23 @@
+# Entornos virtuales
+.venv/
+env/
+venv/
+
+# Configuración y credenciales
+.env
+.cache
+
+# Archivos de Python
+__pycache__/
+*.pyc
+
+# Configuración de herramientas
+.python-version
+
+# Carpetas de desarrollo/IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log

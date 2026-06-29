@@ -1,0 +1,13 @@
+{
+    "default_turns": 2,
+    "intents": [
+    {
+        "keywords": ["playlist", "aleatorio", "shuffle"],
+        "max_turns": 3
+    },
+    {
+        "keywords": ["pausa", "parar", "siguiente", "anterior", "volumen", "reproducir"],
+        "max_turns": 1
+    }
+    ]
+}

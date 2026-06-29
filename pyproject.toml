@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mcp-spotify"
+version = "0.1.0"
+description = "Agente CLI para controlar Spotify mediante lenguaje natural usando el protocolo MCP"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-genai>=2.10.0",
+    "groq>=1.5.0",
+    "mcp>=1.28.0",
+    "openai>=2.43.0",
+    "python-dotenv>=1.2.2",
+    "spotipy>=2.26.0",
+]
+
+[project.scripts]
+mcp-spotify = "mcp_spotify.agent:cli"
